@@ -3,13 +3,14 @@
 
 
 // Create a number sequence starting with 0 and 1
-var beginSequence = [0 , 1];
+var numbers = [0 , 1];
 
 // Add first numbers in sequence together
 for(i = 0; i <= 10; i++){
 
-  var answer = beginSequence[i] + beginSequence[i+1];
-  console.log(answer);
+  var answer = numbers[i] + numbers[i+1];
+  numbers.push(answer);
+  console.log(numbers[i]);
 
 }
 
